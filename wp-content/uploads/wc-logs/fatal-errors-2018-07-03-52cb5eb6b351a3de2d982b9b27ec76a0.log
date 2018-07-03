@@ -1,0 +1,12 @@
+2018-07-03T05:41:54+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/wpmonkeymoto0/wp-content/plugins/duplicate-page/duplicatepage.php:343
+Stack trace:
+#0 /var/www/wpmonkeymoto0/wp-content/plugins/duplicate-page/admin-settings.php(97): duplicate_page->duplicate_page_adsense()
+#1 /var/www/wpmonkeymoto0/wp-content/plugins/duplicate-page/duplicatepage.php(196): include('/var/www/wpmonk...')
+#2 /var/www/wpmonkeymoto0/wp-includes/class-wp-hook.php(286): duplicate_page->duplicate_page_settings('')
+#3 /var/www/wpmonkeymoto0/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/wpmonkeymoto0/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/wpmonkeymoto0/wp-admin/admin.php(224): do_action('settings_page_d...')
+#6 /var/www/wpmonkeymoto0/wp-admin/options-general.php(10): require_once('/var/www/wpmonk...')
+#7 {main}
+  thrown
+
